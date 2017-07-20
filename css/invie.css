@@ -1,0 +1,234 @@
+/** {
+	border: 1px solid red;
+}*/
+
+body {
+	font-family: 'Allerta', sans-serif;
+	display: table;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+.background {
+	background-image: url("../imagenes/background.png");
+	background-size: cover;
+}
+
+input, textarea {
+	outline: 0;
+}
+
+input:focus, textarea:focus {
+	background:lightgray;
+}
+
+
+.container {
+	width: 800px;
+	margin: auto;
+	position: relative;
+}
+
+figure {
+	display: inline-block;
+	margin-left: 0;
+}
+
+.header {
+	color: blue;
+	position: relative;
+	margin-bottom: 145px;
+	padding-top: 20px;
+	/*position: absolute;
+	left: 5%;
+	right: 5%;
+	top: 5%;*/
+}
+
+.portada {
+	color: white;
+	padding-top: 0;
+	padding-bottom: 200px;
+	height: 320px;
+}
+
+.menu li {
+	display: inline-block;
+	margin-left: 20px;
+	color: white;
+}
+
+.menu ul {
+	margin-top: 40px;
+}
+
+.menu li:before {
+	content: "∘";
+	font-size: 50px;
+	line-height: 10px;
+}
+
+.menu {
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+	font-size: 24px;
+}
+
+.menu a {
+	color: white;
+	text-decoration: none;
+	margin-left: 0;
+}
+
+.titulo1 {
+	font-size: 60px;
+	line-height: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.titulo1 span {
+	text-decoration: underline;
+}
+
+.info {
+	line-height: 0;
+	margin-top: 0;
+	margin-bottom: 35px;
+}
+
+.boton {
+	border-radius: 12px;
+	background: #fd324e;
+	color: white;
+	border: none;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 7px 25px;
+	font-size: 18px;
+	background: linear-gradient(to left, #fe344e, #ff7250)
+}
+
+/*.boton:active {
+	border-radius: 10px;
+	background: white;
+	color: #fd324e;
+	border: 1px solid white;
+	padding: 10px 30px;
+}*/
+
+.guitarras {
+	color: rgba(31, 49, 60, 100);
+}
+
+.titulo2 {
+	font-size: 35px;
+}
+
+.contenido1 {
+	display: inline-block;
+}
+
+.guitar {
+	border: 1px solid rgba(31, 49, 60, 100);
+	position: relative;
+	padding: 20px;
+	margin-bottom: 60px;
+	border-radius: 20px;
+}
+
+.derecha {
+	position: absolute;
+	top: -109px;
+}
+
+
+.izquierda {
+	position: absolute;
+}
+
+.contenido2 {
+	display: inline-block;
+	margin-left: 350px;
+}
+
+.titulo3 {
+	font-size: 50px;
+	margin-bottom: 0;
+}
+
+.footer {
+	background: rgba(31, 49, 60, 100);
+	color: white;
+	padding: 15px;
+}
+
+.footer a {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	width: 100px;
+}
+
+.container1 {
+	display: flex;
+	justify-content: space-between;
+	width: 800px;
+	margin: auto;
+}
+
+.form {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.col-1 {
+	width: 410px;
+	margin-top: 65px;
+}
+
+.footer input {
+	margin: 10px auto;
+
+}
+
+.footer label {
+	margin-right: 10px;
+}
+
+.orden {
+	display: flex;
+	margin-top: 40px;
+}
+
+.tabla {
+	margin: 100px;
+}
+
+table {
+	width: 100%;
+	border: 1px solid rgba(31, 49, 60, 100);
+	border-collapse: collapse;
+}
+
+th {
+	background: rgba(31, 49, 60, 100);
+	color: white;
+	padding: 10px;
+	border: 1px solid rgba(31, 49, 60, 100);
+	
+}
+
+td {
+	padding: 20px;
+	border: 1px solid rgba(31, 49, 60, 100);
+	text-align: center;
+}
+
+.comenta {
+	resize: none;
+	margin: 10px auto;
+	font-size: 15px;
+}
